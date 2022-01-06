@@ -1,0 +1,229 @@
+body {
+  font-family: "Gilroy-Medium";
+  margin: 0, 0;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+a:hover {
+   opacity: 0.3;
+   cursor: pointer;
+}
+.container {
+  max-width: 942px;
+  margin: 0 auto;
+ }
+.caption {
+  display: flex;
+  position: relative;
+  list-style-type:none;
+  justify-content: space-between;
+}
+.navigation {
+  text-decoration: none;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 25px;
+  color: #828282;
+}
+.header_line {
+  border: 1px solid #828282;
+  margin-top: 30px;
+}
+.denis_novik-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 64px;
+}
+.denis_novik-photo {
+  margin-top: 38px;
+  background: #ffffff url(./img/Denis.jpg) center no-repeat;
+  background-size: cover;
+  height: 387px;
+  margin-bottom: 100px;
+}
+.denis_novik-photo:hover {
+  transform: scaleX(-1);
+}
+.about {
+  text-align: center;
+  background-color: #f6f6f6;
+  margin-top: 105px;
+}
+.about_main {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 120px;
+}
+.about_description {
+  max-width: 485px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 67px;
+  line-height: 22px;
+  font-size: 18px;
+}
+.interval {
+  padding-bottom: 40px;
+}
+.skills_main {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 91px;
+  text-align: center;
+}
+.skills-description {
+  margin-top: 69px;
+  margin-bottom: 83px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.skills_info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills_container {
+  width: 25%;
+  text-align: center;
+}
+.skills_programm {
+  width: 90px;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding-bottom: 40px;
+}
+.skills_star-img {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  margin-right: 40px;
+}
+.skills_img:hover {
+  transform: skew(-20deg, 20deg);
+}
+.skills_star-img-nofill:hover {
+  transform:scale(2);
+}
+.skills_star-img-fill:hover {
+  transform:scale(2);
+} 
+.skills_star-img-last {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.skills_star-img-fill {
+  margin: 0 9px;
+}
+.skills_star-img-nofill {
+  margin: 0 9px;
+}
+.skills_star-img-nofill:last-of-type {
+  margin-left: 9px;
+  margin-right: 0px;
+}
+.denis_novik-portfolio {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  }
+.container_2 {
+  max-width: 942px;
+  margin: 0 auto;
+  background: #f6f6f6
+}
+.denis_novik-photo-portfolio_1{
+  margin-top: 38px;
+  background: url(./img/portfolio/work-1.jpg) center no-repeat;
+  background-size: cover;
+  height: 520px;
+  margin-bottom: 10px;
+}
+.denis_novik-photo-portfolio_1:hover{
+  transform: scale(1.05);
+}
+.denis_novik-photo-portfolio_2:hover{
+  transform: scale(1.05);
+}
+  .denis_novik-photo-portfolio_3:hover{
+    transform: scale(1.05);
+  }
+.store {
+  text-decoration:underline;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.denis_novik-photo-portfolio_2 {
+  background: url(./img/portfolio/work-2.jpg) center no-repeat;
+  background-size: cover;
+  height: 520px;
+  margin-bottom: 10px;
+}
+.denis_novik-photo-portfolio_3 {
+  background: url(./img/portfolio/work-3.jpg) center no-repeat;
+  background-size: cover;
+  height: 520px;
+  margin-bottom: 10px;
+}
+.denis_novik-contacs {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container_3 {
+  max-width: 340px;
+  text-align: center;
+  margin: auto;
+}
+.button-contact {
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #FFFFFF;
+  background: #070707;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+.button-contact:hover {
+  transform: translate3d(5px, 10%, 1em);
+  opacity: 0.3;
+  cursor: pointer;
+}
+.contact-messanger-ico:hover {
+  transform:scale(2);
+}
+.contact-description {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.contact-messanger {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+.contact-text {
+  font-size: 14px;
+  color: #828282;
+}
